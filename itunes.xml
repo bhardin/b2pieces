@@ -38,10 +38,6 @@ title : iTunes Feed
 	<guid>{{ post.podcast_url }}</guid>
 	<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
 	<itunes:keywords>{% for tag in post.tags %}{{ tag }},{% endfor %}</itunes:keywords>
-
-
-
-
 </item>
 {% endfor %}
 
