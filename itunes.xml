@@ -39,9 +39,7 @@ title : iTunes Feed
 	<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
 	<itunes:keywords>{{ post.tags }}</itunes:keywords>
 
-{% for tag in post.tags %} 
-	{{ tag }}
-{% endfor %}
+{% for tag in post.tags %} {{ tag }}, {% endfor %}
 
 
 </item>
