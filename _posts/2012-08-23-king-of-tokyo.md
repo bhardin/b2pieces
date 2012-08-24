@@ -4,6 +4,7 @@ title: "King of Tokyo"
 description: "An exciting new game from Richard Garfield, the creator of Magic: The Gathering."
 category: 
 tags: [magic, tokyo, king, monsters, godzilla]
+podcast_url: http://media.podcastingmanager.com/112288-104844/Media/GarrettsGames325.mp3
 ---
 {% include JB/setup %}
 
