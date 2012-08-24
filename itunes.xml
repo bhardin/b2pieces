@@ -37,9 +37,9 @@ title : iTunes Feed
 	<enclosure url="{{ post.podcast_url }}" type="audio/mpeg" />
 	<guid>{{ post.podcast_url }}</guid>
 	<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-	<itunes:keywords>{{ post.tags }}</itunes:keywords>
+	<itunes:keywords>{% for tag in post.tags %}{{ tag }},{% endfor %}</itunes:keywords>
 
-{% for tag in post.tags %} {{ tag }}, {% endfor %}
+
 
 
 </item>
