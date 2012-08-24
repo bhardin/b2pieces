@@ -1,0 +1,48 @@
+---
+layout: nil
+title : iTunes Feed
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+
+<title>{{ site.title }}</title>
+<link href="{{ site.production_url }}/atom.xml" rel="self"/>
+<link href="{{ site.production_url }}"/>
+<language>en-us</language>
+<copyright>&#x2117; &amp; &#xA9; 2012 Ted Alspach</copyright>
+
+<itunes:subtitle>{{ site.tagline }}</itunes:subtitle>
+<itunes:author>Board2Pieces</itunes:author>
+<itunes:summary>Board2Pieces is a podcast talking about boardgames. Each episode we choose one game and talk about it. We don't get lost in the weeds, just a high level overview and whether we would purchase or not purchase. Look for our Podcast in the iTunes Store</itunes:summary>
+<description>Board2Pieces is a podcast talking about boardgames. Each episode we choose one game and talk about it. Look for our Podcast in the iTunes Store</description>
+<itunes:owner>
+	<itunes:name>{{ site.author.name }}</itunes:name>
+	<itunes:email>{{ site.author.email }}</itunes:email>
+</itunes:owner>
+<itunes:image href="http://podcast.board2pieces.com/assets/images/logo.png" />
+<itunes:category text="Comedy"/>
+<itunes:category text="Games &amp; Hobbies">
+	<itunes:category text="Other Games"/>
+	<itunes:category text="Hobbies"/>
+</itunes:category>
+<itunes:keywords>boardgames</itunes:keywords>
+<itunes:keywords>b2p</itunes:keywords>
+<itunes:keywords>board 2 pieces</itunes:keywords>
+<itunes:keywords>board to pieces</itunes:keywords>
+
+{% for post in site.posts %}
+<item>
+	<title>{{ post.title }}</title>
+	<itunes:author>{{ site.author.name }}</itunes:author>
+	<itunes:subtitle>{{ post.description }}</itunes:subtitle>
+	<itunes:image href="http://podcast.board2pieces.com/assets/images/logo.png" />
+	<enclosure url="{{ post.podcast_url }}" type="audio/mpeg" />
+	<guid>{{ post.podcast_url }}</guid>
+	<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+	<itunes:keywords>{{ post.tags }}</itunes:keywords>
+</item>
+{% endfor %}
+
+</channel>
+</rss>

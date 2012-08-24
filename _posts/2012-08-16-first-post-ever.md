@@ -4,6 +4,7 @@ title: "First Post Ever"
 description: ""
 category: 
 tags: [discussion]
+podcast_url: http://3.bp.blogspot.com/-s8FwyVmUgwI/T0Q925HNe5I/AAAAAAAAAWU/zjxJIiwDT5U/s1600/Y-U-NO-CHAUCER-MEME.jpg
 ---
 {% include JB/setup %}
 
