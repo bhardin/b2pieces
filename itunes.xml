@@ -21,11 +21,11 @@ title : iTunes Feed
 	<itunes:email>{{ site.author.email }}</itunes:email>
 </itunes:owner>
 <itunes:image href="http://podcast.board2pieces.com/assets/images/logo.png" />
-<itunes:category text="Comedy"/>
 <itunes:category text="Games &amp; Hobbies">
 	<itunes:category text="Other Games"/>
 	<itunes:category text="Hobbies"/>
 </itunes:category>
+<itunes:category text="Comedy"/>
 <itunes:keywords>boardgames, board, games, settlers, b2p, board 2 pieces, board to pieces</itunes:keywords>
 
 {% for post in site.posts %}
