@@ -26,10 +26,7 @@ title : iTunes Feed
 	<itunes:category text="Other Games"/>
 	<itunes:category text="Hobbies"/>
 </itunes:category>
-<itunes:keywords>boardgames</itunes:keywords>
-<itunes:keywords>b2p</itunes:keywords>
-<itunes:keywords>board 2 pieces</itunes:keywords>
-<itunes:keywords>board to pieces</itunes:keywords>
+<itunes:keywords>boardgames, board, games, settlers, b2p, board 2 pieces, board to pieces</itunes:keywords>
 
 {% for post in site.posts %}
 <item>
