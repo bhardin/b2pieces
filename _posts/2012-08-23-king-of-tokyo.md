@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "King of Tokyo"
-description: ""
+description: "An exciting new game from Richard Garfield, the creator of Magic: The Gathering."
 category: 
-tags: []
+tags: [magic, tokyo, king, monsters, godzilla]
 ---
 {% include JB/setup %}
 
