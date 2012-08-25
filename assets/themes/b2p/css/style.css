@@ -1,6 +1,7 @@
 /* Override some defaults */
 html, body {
-  background-color: #eee;
+  /* background-color: #eee; */
+  background-image: url('/assets/themes/b2p/img/retina_wood.png');
 }
 .container > footer p {
   text-align: center; /* center align it with the container */
