@@ -65,8 +65,13 @@ task :post do
     post.puts 'description: ""'
     post.puts "category: "
     post.puts "tags: []"
+    post.puts "podcast_url: "
     post.puts "---"
     post.puts "{% include JB/setup %}"
+    post.puts ""
+    post.puts "REPLACE THIS WITH SOMETHING WITTY!"
+    post.puts ""
+    post.puts "[Download Here!]({{ page.podcast_url }})"
   end
 end # task :post
 
