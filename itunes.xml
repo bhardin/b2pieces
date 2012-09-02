@@ -6,7 +6,7 @@ title : iTunes Feed
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 <channel>
 
-<title>{{ site.title }}</title>
+<title>Board2Pieces</title>
 <link href="{{ site.production_url }}/atom.xml" rel="self"/>
 <link href="{{ site.production_url }}"/>
 <language>en-us</language>
