@@ -10,7 +10,7 @@ title : iTunes Feed
 <link href="{{ site.production_url }}/atom.xml" rel="self"/>
 <link href="{{ site.production_url }}"/>
 <language>en-us</language>
-<copyright>&#x2117; &amp; &#xA9; 2012 Ted Alspach</copyright>
+<copyright>&#x2117; &amp; &#xA9; 2012 Ted Alspach & Brett Hardin</copyright>
 
 <itunes:subtitle>{{ site.tagline }}</itunes:subtitle>
 <itunes:author>Board2Pieces</itunes:author>
@@ -20,7 +20,7 @@ title : iTunes Feed
 	<itunes:name>{{ site.author.name }}</itunes:name>
 	<itunes:email>{{ site.author.email }}</itunes:email>
 </itunes:owner>
-<itunes:image href="http://podcast.board2pieces.com/assets/images/logo.png" />
+<itunes:image href="http://podcast.board2pieces.com/assets/themes/b2p/img/B2P-podcast-logo-for-itunes.jpg" />
 <itunes:category text="Games &amp; Hobbies">
 	<itunes:category text="Other Games"/>
 	<itunes:category text="Hobbies"/>
