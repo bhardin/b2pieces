@@ -10,7 +10,7 @@ title : iTunes Feed
 <link href="{{ site.production_url }}/atom.xml" rel="self"/>
 <link href="{{ site.production_url }}"/>
 <language>en-us</language>
-<copyright>&#x2117; &amp; &#xA9; 2012 Ted Alspach & Brett Hardin</copyright>
+<copyright>&#x2117; &amp; &#xA9; 2012 Ted Alspach</copyright>
 
 <itunes:subtitle>{{ site.tagline }}</itunes:subtitle>
 <itunes:author>Board2Pieces</itunes:author>
