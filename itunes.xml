@@ -33,11 +33,8 @@ title : iTunes Feed
 	<title>{{ post.title }}</title>
 	<itunes:author>{{ site.author.name }}</itunes:author>
 	<itunes:subtitle>{{ post.description }}</itunes:subtitle>
-	
 	<itunes:duration>{{ post.podcast_time }}</itunes:duration>
-
-
-	<itunes:image href="http://podcast.board2pieces.com/assets/images/logo.png" />
+	<itunes:image href="http://podcast.board2pieces.com/assets/themes/b2p/img/B2P-podcast-logo-for-itunes.jpg" />
 	<enclosure url="{{ post.podcast_url }}" type="audio/mpeg" />
 	<guid>{{ post.podcast_url }}</guid>
 	<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
