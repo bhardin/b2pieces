@@ -11,6 +11,7 @@ tagline: Supporting111 tagline
   <h3><small>{{ post.date | date_to_string }}</small></h3>
 
   <p>{{ post.content }}</p>
+  <a href="{{ post.podcast_url }}">Download This Episode!</a><br/><br/>
 
   {% endfor %}
 </ul>

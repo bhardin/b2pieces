@@ -10,5 +10,3 @@ podcast_url: https://dl.dropbox.com/u/3275045/B2P/B2P%20Episode%202%20Mouse%20in
 {% include JB/setup %}
 
 A cute kids game involving getting mice through a mouse hole (a wooden ring). Super short and fun!!!
-
-[Download Here!]({{ page.podcast_url }})

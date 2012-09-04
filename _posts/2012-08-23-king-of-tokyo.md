@@ -10,5 +10,3 @@ podcast_url: https://dl.dropbox.com/u/3275045/B2P/B2P%20Episode%201%20King%20of%
 {% include JB/setup %}
 
 We played and talked about King of Tokyo. Check it out!
-
-[Download Here!]({{ page.podcast_url }})
