@@ -18,7 +18,7 @@ author :
   email : ted@beziergames.com
   github : bhardin
   twitter : b2ppodcast
-  feedburner : feedname
+  feedburner : Board2pieces
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -83,7 +83,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : board2piecespodcast
     livefyre :
       site_id : 123
     intensedebate :
@@ -101,7 +101,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-34689739-1'
     getclicky :
       site_id : 
     mixpanel :
