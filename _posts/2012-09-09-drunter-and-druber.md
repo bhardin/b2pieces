@@ -3,7 +3,7 @@ layout: post
 title: "Episode 3: Drunter and Druber"
 description: "1991 Spiel des Jahres Winner"
 category: 
-tags: [Klaus Teuber, Tile Placement, Voting, Spiel Des Jahres, Bluffing]
+tags: [Klaus Teuber, tile placement, voting, Spiel Des Jahres, bluffing]
 podcast_time: "12:17"
 podcast_url: https://s3.amazonaws.com/board2pieces/B2P+Episode+3+Drunter+and+Druber.mp3
 ---
