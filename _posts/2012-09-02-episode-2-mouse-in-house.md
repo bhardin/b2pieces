@@ -5,7 +5,7 @@ description: "A cute kids boardgame involving getting mice through a hole."
 category: 
 tags: [mice, haba, dexterity, kids game, animals, short]
 podcast_time: "10:04"
-podcast_url: https://dl.dropbox.com/u/3275045/B2P/B2P%20Episode%202%20Mouse%20in%20House.mp3
+podcast_url: https://s3.amazonaws.com/board2pieces/B2P+Episode+2+Mouse+in+House.mp3
 ---
 {% include JB/setup %}
 

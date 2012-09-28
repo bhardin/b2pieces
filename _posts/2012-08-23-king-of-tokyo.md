@@ -5,7 +5,7 @@ description: "An exciting new game from Richard Garfield, the creator of Magic: 
 category: 
 tags: [dice, card drafting, science fiction, monsters, godzilla, short]
 podcast_time: "11:05"
-podcast_url: https://dl.dropbox.com/u/3275045/B2P/B2P%20Episode%201%20King%20of%20Tokyo.mp3
+podcast_url: https://s3.amazonaws.com/board2pieces/B2P+Episode+1+King+of+Tokyo.mp3
 ---
 {% include JB/setup %}
 
