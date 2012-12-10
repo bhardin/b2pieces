@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Episode 3: Drunter and Druber"
+title: "Drunter and Druber"
 description: "1991 Spiel des Jahres Winner"
 category: 
 tags: [Klaus Teuber, tile placement, voting, Spiel Des Jahres, bluffing]

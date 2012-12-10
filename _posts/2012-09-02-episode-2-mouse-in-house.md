@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Episode 2: Mouse in House"
+title: "Mouse in House"
 description: "A cute kids boardgame involving getting mice through a hole."
 category: 
 tags: [mice, haba, dexterity, kids game, animals, short]

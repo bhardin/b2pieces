@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Episode 1: King of Tokyo"
+title: "King of Tokyo"
 description: "An exciting new game from Richard Garfield, the creator of Magic: The Gathering."
 category: 
 tags: [dice, card drafting, science fiction, monsters, godzilla, short]

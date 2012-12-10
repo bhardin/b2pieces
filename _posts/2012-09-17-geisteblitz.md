@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Episode 4: Geisteblitz"
+title: "Geisteblitz"
 description: "A great think-fast game of ghosts in a bathroom and basement"
 category: 
 tags: [pattern recognition, dexterity, action, family games, ghosts]

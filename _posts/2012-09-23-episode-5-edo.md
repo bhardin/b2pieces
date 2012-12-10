@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Episode 5: Edo"
+title: "Edo"
 description: "Choose actions from your cards carefully."
 category: 
 tags: ["hand management", "point to point movement", "japan", "economic", "medieval"]

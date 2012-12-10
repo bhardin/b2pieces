@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Episode 6: Top Secret Spies"
+title: "Top Secret Spies"
 description: "A Spiel Des Jahres Winner from days of old."
 category: 
 tags: [Deduction, Spiel Des Jahres, Bluffing, Secret Unit Deployment, Spies]

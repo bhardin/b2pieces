@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Episode 7: Piece o' cake"
+title: "Piece o' cake"
 description: "Pie or Cake? I always thought cake was square."
 category: 
 tags: [set collection, family games, food]
