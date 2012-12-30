@@ -7,6 +7,5 @@ tags: [set collection, family games, food]
 podcast_time: "12:09"
 podcast_url: https://s3.amazonaws.com/board2pieces/B2P+Episode+7+Piece+o+Cake.mp3
 ---
-{% include JB/setup %}
 
 You cut the pie and I will choose which side I want!

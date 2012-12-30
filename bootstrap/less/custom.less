@@ -1,0 +1,102 @@
+// ----------------------
+// Stock Bootstrap stuff.
+// ----------------------
+
+@import "bootstrap.less";
+
+// -----------------------
+// Custom stuff goes here.
+// -----------------------
+
+// bootstrap.less doesn't include the responsive CSS. Pull it in.
+// @import "responsive.less";
+
+//Custom Variables
+@linkColor: #F78418;
+
+body {
+	background: url(/bootstrap/img/retina_wood.png) repeat 0 0;
+}
+
+.page-header {
+	background: url(/bootstrap/img/background2.png) repeat 0 0;
+	padding: 15px 0 20px 0;
+	margin: 0 0 0 0;
+
+	small {
+		color: white;
+	}
+}
+
+.content {
+	background: url(/bootstrap/img/background.png) repeat 0 0;
+	padding: 20px 20px 20px 20px;
+
+	.post {
+		margin-bottom: 50px;
+
+		h2 {
+			margin-bottom: 0px;
+		}
+	}
+}
+
+.footer {
+	background: url(/bootstrap/img/background2.png) repeat 0 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+}
+
+
+// tag_box ======================================================== //
+
+.tag_box {
+  list-style:none;
+  margin:0;
+  padding:5px 0 ;
+  overflow:hidden;
+
+	li {
+	  line-height:28px;
+	}
+
+	a {
+	  padding: 3px 6px;
+	  margin: 2px;
+	  background: @linkColor;
+	  color: #FFFFFF;
+	  .border-radius( 3px );
+	  text-decoration:none;
+
+	  span{
+		  vertical-align:super;
+		  font-size:0.8em;
+		}
+	}
+
+}
+
+.tag_box.inline li {
+  float:left;
+}
+
+.tag_box a 
+
+
+
+.tag_box a.active {
+  background:#57A957;
+  border:1px solid #4C964D;
+  color:#FFF;
+}
+
+.content .talk-design .color {
+	div {
+		float: left;
+		margin-right: 5px;
+		padding: 0px 10px 0px;
+		border: 1px solid black;
+		font-size: 12px;
+	}
+}

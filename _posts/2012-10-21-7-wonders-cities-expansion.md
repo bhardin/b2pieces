@@ -7,6 +7,5 @@ tags: [expansion, card game, card drafting, set collection]
 podcast_time: "10:59"
 podcast_url: https://s3.amazonaws.com/board2pieces/B2P009-7WondersCities.mp3
 ---
-{% include JB/setup %}
 
 We discuss 7 Wonders and the Cities expansion.

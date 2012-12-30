@@ -1,0 +1,3 @@
+<a href="{{ post.podcast_url }}" class="btn"><i class="icon-download-alt"></i>Download!</a>
+<a href="https://itunes.apple.com/podcast/board2pieces/id556170305"><button class="btn"><i class="icon-headphones"></i> Listen in iTunes</button></a>
+

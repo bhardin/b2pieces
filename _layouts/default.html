@@ -1,6 +1,38 @@
----
-theme :
-  name : b2p
----
-{% include JB/setup %}
-{% include themes/b2p/default.html %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://feeds.feedburner.com/Board2pieces" rel="alternate" type="application/rss+xml" title="Board2Pieces Podcast" />
+  </head>
+
+  <body>
+    <div class="page-header">
+      <div class="container">
+        <img style="float:right; height:100px" src="/assets/images/logo.png">
+        <h1><a href="/">Board2Pieces Podcast</a><br/>
+          <small>{{ site.tagline }}</small>
+        </h1>
+        <a href="itpc://podcast.board2pieces.com/itunes.xml"><button class="btn btn-success"><i class="icon-music icon-white"></i> Subscribe with iTunes</button></a> 
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+      
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; {{ site.time | date: "%Y" }} <a href="http://bretthard.in">Brett Hardin</a> and <a href="http://boardgamegeek.com/boardgamedesigner/6046/ted-alspach">Ted Alspach</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

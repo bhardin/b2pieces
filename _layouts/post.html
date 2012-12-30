@@ -1,5 +1,28 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/b2p/post.html %}
+
+<!-- Tags -->
+
+<ul class="tag_box inline" style="float: right;">
+	<b>Tags</b>
+		{% assign tags_list = page.tags %}
+  	{% include tags_list %}
+</ul>
+
+<h2>{{ page.title }}</h2>
+
+{{ content }}
+
+{% include listen_to_this %}
+
+
+<h3>Recent Episodes</h3>
+
+<div class="recent_posts">
+<ul>
+{% for post in site.posts limit:3 %}  
+	<li><a href="{{ post.url }}" onclick="_gaq.push(['_trackEvent', 'recent post', 'Clicked {{ post.title }}', 'From {{ page.title }}']);">{{ post.title }} - {{ post.date | date:"%b %d, %Y" }}</a></li>
+{% endfor %}
+</ul>
+</div>
