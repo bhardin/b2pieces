@@ -14,8 +14,8 @@ title : iTunes Feed
 
 <itunes:subtitle>{{ site.tagline }}</itunes:subtitle>
 <itunes:author>Board2Pieces</itunes:author>
-<itunes:summary>Board2Pieces is a podcast talking about boardgames. Each episode we choose one game and talk about it. We don't get lost in the weeds, just a high level overview and whether we would purchase or not purchase. Look for our Podcast in the iTunes Store</itunes:summary>
-<description>Board2Pieces is a podcast talking about boardgames. Each episode we choose one game and talk about it. Look for our Podcast in the iTunes Store</description>
+<itunes:summary>We give you baordgames in bit-sized pieces. Each episode we choose one game and talk about it. We don't get lost in the weeds, just a high level overview and whether we would purchase or not purchase.</itunes:summary>
+<description>We give you baordgames in bit-sized pieces. Each episode we choose one game and talk about it. We don't get lost in the weeds, just a high level overview and whether we would purchase or not purchase.</description>
 <itunes:owner>
 	<itunes:name>{{ site.author.name }}</itunes:name>
 	<itunes:email>{{ site.author.email }}</itunes:email>
