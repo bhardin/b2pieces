@@ -4,25 +4,24 @@ layout: page
 <div class="posts">
   {% for post in paginator.posts %}
   	<div class="post">
-  		<!-- Tags -->
-					<ul class="tag_box inline" style="float: right;">
-							{% assign tags_list = post.tags %}
-					  	{% include tags_list %}
-					</ul>
+			
+			<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+			<div class="row">
 				
-		  <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+				<div class="span6">
+			    <p>{{ post.content }}</p>
+			  	{% include listen_to_this %}
+		  	</div>
 
-		  	
-
-	    <p>{{ post.content }}</p>
-	      <br/>
-
-	      
-    	{% include listen_to_this %}
-    
-
+				<div class="span5">
+					<!-- Tags -->
+					<ul class="tag_box inline">
+						{% assign tags_list = post.tags %}
+						{% include tags_list %}
+					</ul>
+				</div>
+		  </div>
 		</div>
-		
   {% endfor %}
 </div>
 
