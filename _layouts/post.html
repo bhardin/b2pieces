@@ -2,20 +2,22 @@
 layout: default
 ---
 
-<!-- Tags -->
-
-<ul class="tag_box inline" style="float: right;">
-	<b>Tags</b>
-		{% assign tags_list = page.tags %}
-  	{% include tags_list %}
-</ul>
-
 <h2>{{ page.title }}</h2>
 
-{{ content }}
+<div class="row">
+	<div class="span6">
+		{{ content }}
 
-{% include listen_to_this %}
+		{% include listen_to_this %}
+	</div>
 
+	<div class="span5">
+		<ul class="tag_box inline" style="float: right;">
+			{% assign tags_list = page.tags %}
+	  	{% include tags_list %}
+		</ul>
+	</div>
+</div>
 
 <h3>Recent Episodes</h3>
 
