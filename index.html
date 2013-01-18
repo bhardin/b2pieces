@@ -2,21 +2,21 @@
 layout: page
 ---
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for page in paginator.posts %}
   	<div class="post">
 			
-			<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+			<a href="{{ page.url }}"><h2>{{ page.title }}</h2></a>
 			<div class="row">
 				
 				<div class="span6">
-			    <p>{{ post.content }}</p>
+			    <p>{{ page.content }}</p>
 			  	{% include listen_to_this %}
 		  	</div>
 
 				<div class="span5">
 					<!-- Tags -->
 					<ul class="tag_box inline">
-						{% assign tags_list = post.tags %}
+						{% assign tags_list = page.tags %}
 						{% include tags_list %}
 					</ul>
 				</div>
