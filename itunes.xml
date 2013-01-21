@@ -14,8 +14,8 @@ title : iTunes Feed
 
 <itunes:subtitle>{{ site.tagline }}</itunes:subtitle>
 <itunes:author>Board2Pieces</itunes:author>
-<itunes:summary>We give you baordgames in bit-sized pieces. Each episode we choose one game and talk about it. We don't get lost in the weeds, just a high level overview and whether we would purchase or not purchase.</itunes:summary>
-<description>We give you baordgames in bit-sized pieces. Each episode we choose one game and talk about it. We don't get lost in the weeds, just a high level overview and whether we would purchase or not purchase.</description>
+<itunes:summary>Boardgames in bit-sized pieces. Each episode we choose one game and discuss whether we would buy it after playing it. We don't get lost in the weeds, just a high level overview and fun discussion.</itunes:summary>
+<description>Boardgames in bit-sized pieces. Each episode we choose one game and discuss whether we would buy it after playing it. We don't get lost in the weeds, just a high level overview and fun discussion.</description>
 <itunes:owner>
 	<itunes:name>{{ site.author.name }}</itunes:name>
 	<itunes:email>{{ site.author.email }}</itunes:email>
@@ -26,7 +26,7 @@ title : iTunes Feed
 	<itunes:category text="Hobbies"/>
 </itunes:category>
 <itunes:category text="Comedy"/>
-<itunes:keywords>boardgames, board, games, settlers, b2p, board 2 pieces, board to pieces</itunes:keywords>
+<itunes:keywords>boardgames, board, games, settlers, b2p, board 2 pieces, board to pieces, board 2 pieces</itunes:keywords>
 
 {% for post in site.posts %}
 <item>
